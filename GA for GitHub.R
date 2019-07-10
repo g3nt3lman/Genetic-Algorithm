@@ -258,5 +258,5 @@ plot(result$budget_opt,
 plot(result$mean_fitness,
      main="Graph of the average objective function in each population",
      xlab="Iteration number",
-     ylab="Wartości funkcji celu")
+     ylab="Objective function values")
 
