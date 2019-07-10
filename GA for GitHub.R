@@ -116,10 +116,6 @@ while (no_iter<max_iter){
   
   #  }
   
-  # --------------------------------------------------------------------------------
-  
-  
-  
   # --------------------- SELECTION OF INDYWIDUALS TO NEXT POPULATION -------------
   
   udz_proc=sapply(fitness, function(x) x/sum(fitness))
@@ -208,7 +204,6 @@ while (no_iter<max_iter){
   )
   
   #-------------------------------- NO PENALTY -------------------------------------------------
-  
   
   # if (war_stuck_idx<no_pen){
   #    score=apply(population,1, function(x) 
