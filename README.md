@@ -9,3 +9,4 @@ The aim of the project was realized through the implementation of the Genetic Al
 
 Data was acquired thanks to Nielsen Poland company from the 'Nielsen People Meter' device. Company also allowed to use Arianna program where viewing rates predictions were made. The comparison of solutions found by the Arianna program (which is used for every day optimization of TV advertising campaigns), with solutions found by the Genetic Algorithm confirms the effectiveness of the method used in this work to solve given optimization problem.
 
+GA is known as a method that sometimes stuck in local optima. To prevent this kind of situation there waere implemented two different method - "Judgement Day" and "No Penalty".
